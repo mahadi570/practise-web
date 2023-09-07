@@ -1,11 +1,12 @@
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.jc-sb{
+.jc-sb {
     justify-content: space-between;
 }
-.primary-btn{
+
+.primary-btn {
     border-radius: 5px;
     border: 0;
     font-weight: 800;
@@ -15,17 +16,31 @@
     background-color: #FF900E;
     cursor: pointer;
 }
-nav ul>li{
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+
+.banner-container{
+    width: 90%;
+    margin: auto;
+}
+
+.banner{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+nav ul>li {
     list-style: none;
     margin-right: 30px;
     cursor: pointer;
 }
 
-.banner-img{
-    width: 90%;
-    margin: auto;
-}
 
-.banner-img img{
+
+.banner-img img {
     width: 100%;
 }
